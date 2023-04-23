@@ -91,6 +91,7 @@ button {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition-property: transform 250ms var(--cubic);
 }
 .btn:hover,
 .btn:focus {
@@ -109,6 +110,7 @@ button {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  transition-property: transform 250ms var(--cubic);
 }
 .bth-portfolio:focus,
 .bth-portfolio:hover {
@@ -234,6 +236,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--logo-dark-txt-container);
+  transition-property: transform 250ms var(--cubic);
 }
 .header-nav-link.current {
   position: relative;
@@ -242,7 +245,7 @@ button {
   content: "";
 
   position: absolute;
-  bottom: 1px;
+  bottom: -1px;
   left: 0;
 
   display: block;
@@ -266,6 +269,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
   font-style: normal;
+  transition-property: transform 250ms var(--cubic);
 }
 
 .header-link:hover,
@@ -426,6 +430,7 @@ button {
   height: 40px;
   border-radius: 50%;
   background-color: var(--accent-txt-cl);
+  transition-property: transform 250ms var(--cubic);
 }
 .social-link:hover,
 .social-link:focus {
@@ -439,6 +444,7 @@ button {
   height: 40px;
   border-radius: 50%;
   background-color: var(--accent-txt-cl);
+  transition-property: transform 250ms var(--cubic);
 }
 .social-link-footer:hover,
 .social-link-footer:focus {
@@ -499,7 +505,7 @@ button {
   padding-top: 40px;
   background-color: var(--accent-txt-cl);
 
-  transition: transform 250ms var(--cubic);
+  transition-property: transform 250ms var(--cubic);
 }
 .card-link:hover .overlay,
 .card-link:focus .overlay {
@@ -542,6 +548,7 @@ button {
   color: var(--icon);
   width: 168px;
   height: 88px;
+  transition-property: transform 250ms var(--cubic);
 }
 .icon-item:hover,
 .icon-item:focus {
@@ -575,7 +582,7 @@ button {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-  transition: opacity 250ms var(--cubic), visibility 250ms var(--cubic);
+  transition-property: opacity 250ms var(--cubic), visibility 250ms var(--cubic);
 }
 .is-hidden {
   opacity: 0;
@@ -598,6 +605,7 @@ button {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  transition-property: opacity 250ms var(--cubic), visibility 250ms var(--cubic);
 }
 .backdrop.is-hidden.modal {
   opacity: 0;
@@ -633,5 +641,7 @@ button {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: var(--okean-active-btn);
+  background-color: var(--okean-active-btn); 
+  
+
 }
