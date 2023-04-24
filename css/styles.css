@@ -444,7 +444,7 @@ button {
   height: 40px;
   border-radius: 50%;
   background-color: var(--accent-txt-cl);
-  transition: transform 250ms var(--cubic);
+  transition-property: background-color, fill;
 }
 .social-link-footer:hover,
 .social-link-footer:focus {
